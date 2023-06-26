@@ -1,13 +1,30 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const playerName = "SinNo";
+const playerPoints = 121212;
+const playerHandsome = false;
+const playerFat = "little bit";
 
-// Get Item from Array
-console.log(daysOfWeek[4]);
+player.name
+player.points
+player.hansome
 
-// Add one more day to the array
-daysOfWeek.push("sun");
+const player = ["SinNo", 1212, false, "little bit"];
 
-console.log(daysOfWeek);
+const player = {
+    nmae: "SinNo",
+    points: 10,
+    fat: true,
+};
+console.log(player);
+console.log(player.name);
+player.name
 
+console.log(player["name"]);
 
-const toBuy = ["potato", "tomato", "pizza"];
-console.log(toBuy[2]);
+const player = {
+    nmae: "SinNo",
+    points: 10,
+    fat: true,
+    console.log(player);
+    player.lastName = "potato";
+    player.points = 15;
+    console.log(player);
