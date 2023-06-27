@@ -1,30 +1,26 @@
-const playerName = "SinNo";
-const playerPoints = 121212;
-const playerHandsome = false;
-const playerFat = "little bit";
+console.log("Hello my name is SinNo");
+console.log("Hello my name is SinBi");
+console.log("Hello my name is SinRuy");
+console.log("Hello my name is SinMi");
+console.log("Hello my name is SinSia");
+console.log("Hello my name is SinSia");
+console.log("Hello my name is SinSia");
+console.log("Hello my name is SinSia");
+console.log("Hello my name is SinSia");
 
-player.name
-player.points
-player.hansome
+function sayHello() {
+    console.log("Heelo my name is C");
+}
 
-const player = ["SinNo", 1212, false, "little bit"];
+console.log();
+Array.push();
+alert();
 
-const player = {
-    nmae: "SinNo",
-    points: 10,
-    fat: true,
-};
-console.log(player);
-console.log(player.name);
-player.name
+sayHello();
+sayHello();
+sayHello();
+sayHello();
 
-console.log(player["name"]);
-
-const player = {
-    nmae: "SinNo",
-    points: 10,
-    fat: true,
-    console.log(player);
-    player.lastName = "potato";
-    player.points = 15;
-    console.log(player);
+sayHello(SinNo);
+sayHello(SinMi);
+sayHello(SinRyu);
