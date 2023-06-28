@@ -1,26 +1,26 @@
-console.log("Hello my name is SinNo");
-console.log("Hello my name is SinBi");
-console.log("Hello my name is SinRuy");
-console.log("Hello my name is SinMi");
-console.log("Hello my name is SinSia");
-console.log("Hello my name is SinSia");
-console.log("Hello my name is SinSia");
-console.log("Hello my name is SinSia");
-console.log("Hello my name is SinSia");
-
-function sayHello() {
-    console.log("Heelo my name is C");
+function sayHello(nameOfPerson, age) {
+    console.log("Hello my name is " + nameOfPerson + " and I'm " + age);
 }
 
-console.log();
-Array.push();
-alert();
+sayHello("SinNo", 10);
+sayHello("SinMi", 23);
+sayHello("SinRyu", 21);
 
-sayHello();
-sayHello();
-sayHello();
-sayHello();
+function plus(firstNumber, secondNumber) {
+    console.log(firstNumber + secondNumber);
+}
+function divide(a, b) {
+    console.log(a / b);
+}
+plus(8, 60);
+divide(98, 20);
 
-sayHello(SinNo);
-sayHello(SinMi);
-sayHello(SinRyu);
+const player = {
+    name: "SinNo",
+    sayHello: function (otherPersonsName) {
+        console.log("hello " + otherPersonsName + " nice to meet you");
+    },
+};
+
+player.sayHello("SinNo");
+player.sayHello("SinMi");
