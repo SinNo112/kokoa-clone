@@ -1,26 +1,23 @@
-function sayHello(nameOfPerson, age) {
-    console.log("Hello my name is " + nameOfPerson + " and I'm " + age);
-}
+const a = 5;
+let isSinNoFat = true;
 
-sayHello("SinNo", 10);
-sayHello("SinMi", 23);
-sayHello("SinRyu", 21);
+isSinNoFat = falese;
 
-function plus(firstNumber, secondNumber) {
-    console.log(firstNumber + secondNumber);
-}
-function divide(a, b) {
-    console.log(a / b);
-}
-plus(8, 60);
-divide(98, 20);
+const a = null;
 
-const player = {
-    name: "SinNo",
-    sayHello: function (otherPersonsName) {
-        console.log("hello " + otherPersonsName + " nice to meet you");
-    },
-};
+let hello;
+console.log(hello);
 
-player.sayHello("SinNo");
-player.sayHello("SinMi");
+null; undefined;
+
+const me = "sexy";
+const days = [1, 2, false, true, null, undefined, "text", me];
+
+const toBuy = ["potato", "tomato", "pizza"];
+
+toBuy[2]
+console.log(toBuy[2]);
+toBuy[2] = "water";
+console.log(toBuy[2]);
+toBuy.push("meat")
+console.log(toBuy);
